@@ -1,0 +1,121 @@
+/*Master style*/
+html, body {
+    background: rgb(202, 201, 201);
+    font-family: 'Imbue', serif;
+    margin: 0px;
+
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 100px;
+
+}
+
+.hrContent{
+    border:0;
+    border-top:1px dashed #cccccc 
+}
+
+
+/*Nav style*/
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.left-side{
+    display: flex;
+
+
+}
+
+.nav-wrapper > .left-side > div{
+    margin-right: 25px;
+    padding: 25px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 3px solid transparent;
+    transition: "border-bottom" 0.5s;
+}
+
+.nav-link-wrapper a {
+    color:#6d6a6a;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 3px solid rgb(10, 0, 0);
+}
+
+.nav-link-wrapper a:hover {
+    color:black;
+}
+
+.active-nav-link{
+    border-bottom: 1px solid black;
+}
+.active-nav-link a{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*About page*/
+.two-column-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height:1.4em;
+}
+.profile-image-wrapper img{
+    width: 50%;
+    padding: 110px;
+}
+.profile-content-wrapper{
+    padding: 100px;
+    margin-left: 10px;
+    font-size: 17px;
+
+}
+.profile-content-wrapper h1{
+    color: rgb(37, 37, 37);
+    font-size: 35px;
+    text-align: center;
+
+}
+.tabel-content{
+    padding: 5px;
+    font-size: 17px;
+}
+.footer{
+    background-color: #858484;
+    position: relative;
+    height: 20px;
+    margin-top: 26px;
+    font-size: 15px;
+    clear:both;
+    text-align: center;
+}
+
+
+
+
